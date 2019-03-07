@@ -15,6 +15,14 @@ public class TestRevers {
         assertEquals( "blue is sky the", output);
     }
 
+    @Test
+    public void TestPalidromeTrueOneWord(){
+        ReverseWord reverseWord = new ReverseWord();
+        String input = "blue";
+        String output = reverseWord.checkString(input);
+        assertEquals( "blue", output);
+    }
+
 
 
 }
