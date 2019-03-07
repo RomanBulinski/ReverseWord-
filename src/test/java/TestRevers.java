@@ -23,6 +23,13 @@ public class TestRevers {
         assertEquals( "blue", output);
     }
 
+    @Test
+    public void TestPalidromeEmptyString(){
+        ReverseWord reverseWord = new ReverseWord();
+        String input = "";
+        String output = reverseWord.checkString(input);
+        assertEquals( "", output);
+    }
 
 
 }
